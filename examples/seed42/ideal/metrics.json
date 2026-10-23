@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "success": true,
+  "localization_model": "ideal",
+  "planner": "P0",
+  "seed": 42,
+  "localization_rmse_m": 5.1916497784444194e-14,
+  "final_position_error_m": 1.152794345257621e-13,
+  "true_goal_distance_m": 0.1687252513979527,
+  "planned_path_length_m": 17.538582233137664,
+  "executed_path_length_m": 17.30918605674442,
+  "mission_time_s": 62.10000000000061,
+  "sample_count": 622,
+  "absolute_fix_count": 0,
+  "planning_time_s": 0.04655460000503808,
+  "expanded_nodes": 610
+}

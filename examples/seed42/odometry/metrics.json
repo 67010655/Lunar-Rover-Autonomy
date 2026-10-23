@@ -1,0 +1,17 @@
+{
+  "status": "collision",
+  "success": false,
+  "localization_model": "odometry",
+  "planner": "P0",
+  "seed": 42,
+  "localization_rmse_m": 0.13012492214860205,
+  "final_position_error_m": 0.23644380068858417,
+  "true_goal_distance_m": 8.899817023159084,
+  "planned_path_length_m": 17.538582233137664,
+  "executed_path_length_m": 7.911499133990443,
+  "mission_time_s": 28.80000000000014,
+  "sample_count": 289,
+  "absolute_fix_count": 0,
+  "planning_time_s": 0.04556809994392097,
+  "expanded_nodes": 610
+}

@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "created_utc": "2026-10-23T18:36:14.500474+00:00",
+  "scenario_id": "synthetic_obstacles_v1",
+  "data_type": "synthetic",
+  "coordinate_frame": "map_local_m",
+  "cell_convention": "row increases +y; cell centres; rectangles inclusive",
+  "units": {
+    "distance": "m",
+    "time": "s",
+    "angle": "rad"
+  },
+  "planner": "P0",
+  "localization_model": "ideal",
+  "seed": 42,
+  "scenario_sha256": "637360880b14d321dcb073817d15c81108e3a855acc2274e05531c362139d367",
+  "source": {
+    "version": "0.1.0",
+    "python_source_sha256": "a1ac8d8df82fb645f980d9c380bae48ead61bd853cad8ac075501fdd8b438747",
+    "git_revision": "590305fa805ad32a1def659b4c69160be429292c",
+    "git_dirty": false
+  },
+  "python": "3.12.7",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "dependencies": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.4",
+    "Pillow": "12.3.0"
+  },
+  "arguments": {
+    "scenario": "configs\\scenarios\\synthetic_obstacles.json",
+    "seed": 42,
+    "localization": "ideal",
+    "animate": true
+  },
+  "limitations": [
+    "Synthetic development map; no lunar data or measured radio link",
+    "Planar body abstraction; not 6WD/4WS kinematics or rocker-bogie physics",
+    "Command-based odometry error model; no SLAM, IMU fusion, or full GNSS model",
+    "Known initial pose and prior obstacle map; no global replanning",
+    "Position fixes, if enabled, use an ideal scheduled sensor with Gaussian noise only"
+  ],
+  "status": "success",
+  "output_sha256": {
+    "metrics.json": "5b88db6ad67bcd2096402f620052da97e5497a1a6365a8157e72ff6510305fdf",
+    "overview.png": "d8a2ed038ddea5cb561707e56167e7a3867a90d51645728b2de9f45fc28ae517",
+    "overview.svg": "6166c6451a01be22b8c3603f94929e884bebb875bf20f6e26fad286d2e236111",
+    "planned_route.csv": "8f26654eab9745ac58d2455145da40e9122c32239143d71c6903a1a34ef34d82",
+    "scenario.json": "637360880b14d321dcb073817d15c81108e3a855acc2274e05531c362139d367",
+    "trajectory.csv": "99c6294a63a7cdfbd29643f7a967d5c980d2d8902f21f59ff577b9c395256146",
+    "trajectory.gif": "73d82b5dd077d9071a683d2dc8f9cfbb7b56afbe3351d676fc2eaae126029902"
+  }
+}

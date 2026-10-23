@@ -1,3 +1,7 @@
 * text=auto eol=lf
 *.png binary
 *.gif binary
+
+# Preserve exact bytes of published run artifacts and their recorded hashes.
+examples/seed42/** -text whitespace=cr-at-eol
+examples/seed42/**/overview.svg -whitespace
